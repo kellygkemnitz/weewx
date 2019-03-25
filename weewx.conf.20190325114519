@@ -126,8 +126,8 @@ version = 3.9.1
         # and specify a station (e.g., 'KORHOODR3') and password.
         # To guard against parsing errors, put the password in quotes.
         enable = true
-        station = KKSWICHI133
-        password = $h0ck3rg0ld
+        station = KKSWICHI133 
+        password = $h0ck3rg0ld 
         
         # Set the following to True to have weewx use the WU "Rapidfire"
         # protocol. Not all hardware can support it. See the User's Guide.
@@ -184,7 +184,7 @@ version = 3.9.1
         # This is the old "Standard" skin. By default, it is not enabled.
         # skin = Standard
         skin = neowx
-    
+
     [[FTP]]
         # FTP'ing the results to a webserver is treated as just another report,
         # albeit one with an unusual report generator!
